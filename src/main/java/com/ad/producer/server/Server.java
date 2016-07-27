@@ -18,6 +18,7 @@ import com.sun.jersey.spi.container.servlet.ServletContainer;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.grizzly.servlet.ServletRegistration;
 import org.glassfish.grizzly.servlet.WebappContext;
+import org.glassfish.jersey.server.ServerProperties;
 //import com.sun.jersey.api.container.grizzly2.GrizzlyServerFactory;
 /**
  *
@@ -31,6 +32,9 @@ public class Server {
     
     public static HttpServer startServer() throws IOException {
         final ResourceConfig rc = new ResourceConfig(AdvListController.class, AdApplicationEventListener.class).packages("com.ad.producer.controller");
+        
+        rc.property(ServerProperties.MONITORING_STATISTICS_ENABLED, true);
+        
         HttpServer httpServer = GrizzlyHttpServerFactory.createHttpServer(URI.create("http://localhost:8080/adproducer/"), rc);
         
         WebappContext ctx = new WebappContext("WebappContext", "");
