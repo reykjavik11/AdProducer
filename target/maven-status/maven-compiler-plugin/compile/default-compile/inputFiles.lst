@@ -1,0 +1,15 @@
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\server\Server.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\dao\impl\CreativesDAOImpl.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\configuration\Configuration.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\util\Utils.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\controller\AdvListController.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\domain\RequestObj.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\controller\MyResource.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\Main.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\monitor\AdApplicationEventListener.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\configuration\MyApplication.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\service\CreativesServiceForTest.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\monitor\AdRequestEventListener.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\domain\Creatives.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\dao\CreativesDAO.java
+G:\Java_Project\AdProducer\src\main\java\com\ad\producer\service\CreativesService.java

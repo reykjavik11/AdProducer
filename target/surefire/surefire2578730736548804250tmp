@@ -1,0 +1,8 @@
+#surefire
+#Wed Jul 27 08:53:45 EEST 2016
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.0.1\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=G\:\\Java_Project\\AdProducer
+file.encoding=UTF-8
+localRepository=C\:\\Users\\Dimon\\.m2\\repository
+basedir=G\:\\Java_Project\\AdProducer
+test=com.ad.producer.monitoring.MonitoringPerformanceTest

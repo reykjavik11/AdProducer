@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="6.676" errors="0" skipped="1" tests="2" name="com.ad.producer.service.test.CreativesServiceTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="user.country.format" value="UA"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="com.ad.producer.service.test.CreativesServiceTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\Java_Project\AdProducer"/>
+    <property name="java.runtime.version" value="1.7.0_25-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dimon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.0.1\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\scala\bin;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\Skype\Phone\;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\NetBeans 8.0.1\java\maven\bin;K:\TortoiseSvn\bin;K:\Subversion\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Dimon"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Dimon"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.0.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_25\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.ad.producer.service.test.CreativesServiceTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="user.language.format" value="uk"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.0.1\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="6.193" classname="com.ad.producer.service.test.CreativesServiceTest" name="creativesServiceTest">
+    <failure message="Inserted new row and get object must same. expected:&lt;Creatives{id=2006, description=funny ads, url=http://google.com, os=android,ios, country=UK,US, excluded_os=windows,blackberry, excluded_countries=UA,BG}&gt; but was:&lt;Creatives{id=1, description=a cvjyvyjxkhyvwmnpomb, url=http://kfdouqaprgukgtj, os=ios,symbian,symbian,windows,ios, country=SP,GE,UK,PL,GE,SP,PL, excluded_os=mac, excluded_countries=SE}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Inserted new row and get object must same. expected:&lt;Creatives{id=2006, description=funny ads, url=http://google.com, os=android,ios, country=UK,US, excluded_os=windows,blackberry, excluded_countries=UA,BG}&gt; but was:&lt;Creatives{id=1, description=a cvjyvyjxkhyvwmnpomb, url=http://kfdouqaprgukgtj, os=ios,symbian,symbian,windows,ios, country=SP,GE,UK,PL,GE,SP,PL, excluded_os=mac, excluded_countries=SE}&gt;
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at com.ad.producer.service.test.CreativesServiceTest.creativesServiceTest(CreativesServiceTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>DEBUG [main] (SpringJUnit4ClassRunner.java:106) - SpringJUnit4ClassRunner constructor called with [class com.ad.producer.service.test.CreativesServiceTest].
+DEBUG [main] (AbstractDelegatingSmartContextLoader.java:89) - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@2cb0730e declaringClass = &apos;com.ad.producer.service.test.CreativesServiceTest&apos;, locations = &apos;{classpath:applicationContextTest.xml}&apos;, classes = &apos;{}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+DEBUG [main] (ContextLoaderUtils.java:471) - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (TestContextManager.java:183) - @TestExecutionListeners is not present for class [class com.ad.producer.service.test.CreativesServiceTest]: using defaults.
+DEBUG [main] (ProfileValueUtils.java:68) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (ProfileValueUtils.java:80) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (ProfileValueUtils.java:68) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (ProfileValueUtils.java:80) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (ProfileValueUtils.java:68) - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (ProfileValueUtils.java:80) - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ad.producer.service.test.CreativesServiceTest]
+DEBUG [main] (DependencyInjectionTestExecutionListener.java:73) - Performing dependency injection for test context [[TestContext@267d5b1a testClass = CreativesServiceTest, testInstance = com.ad.producer.service.test.CreativesServiceTest@6fe81bb3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6f72be2a testClass = CreativesServiceTest, locations = &apos;{classpath:applicationContextTest.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]].
+DEBUG [main] (AbstractDelegatingSmartContextLoader.java:98) - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@6f72be2a testClass = CreativesServiceTest, locations = &apos;{classpath:applicationContextTest.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].
+DEBUG [main] (AbstractGenericContextLoader.java:104) - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@6f72be2a testClass = CreativesServiceTest, locations = &apos;{classpath:applicationContextTest.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+DEBUG [main] (AbstractEnvironment.java:127) - Initializing new StandardEnvironment
+DEBUG [main] (MutablePropertySources.java:107) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [main] (MutablePropertySources.java:107) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [main] (AbstractEnvironment.java:131) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ INFO [main] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [applicationContextTest.xml]
+DEBUG [main] (DefaultDocumentLoader.java:72) - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG [main] (PluggableSchemaResolver.java:140) - Loading schema mappings from [META-INF/spring.schemas]
+DEBUG [main] (PluggableSchemaResolver.java:146) - Loaded schema mappings: {http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+DEBUG [main] (PluggableSchemaResolver.java:118) - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+DEBUG [main] (PluggableSchemaResolver.java:118) - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.2.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+DEBUG [main] (PluggableSchemaResolver.java:118) - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+DEBUG [main] (DefaultBeanDefinitionDocumentReader.java:106) - Loading bean definitions
+DEBUG [main] (DefaultNamespaceHandlerResolver.java:156) - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+DEBUG [main] (BeanDefinitionParserDelegate.java:500) - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:231) - JSR-250 &apos;javax.annotation.ManagedBean&apos; found and supported for component scanning
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:239) - JSR-330 &apos;javax.inject.Named&apos; annotation found and supported for component scanning
+DEBUG [main] (PathMatchingResourcePatternResolver.java:550) - Looking for matching resources in directory tree [G:\Java_Project\AdProducer\target\classes\com\ad\producer\dao\impl]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:612) - Searching directory [G:\Java_Project\AdProducer\target\classes\com\ad\producer\dao\impl] for files matching pattern [G:/Java_Project/AdProducer/target/classes/com/ad/producer/dao/impl/**/*.class]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:351) - Resolved location pattern [classpath*:com/ad/producer/dao/impl/**/*.class] to resources [file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\dao\impl\CreativesDAOImpl.class]]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:273) - Identified candidate component class: file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\dao\impl\CreativesDAOImpl.class]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:231) - JSR-250 &apos;javax.annotation.ManagedBean&apos; found and supported for component scanning
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:239) - JSR-330 &apos;javax.inject.Named&apos; annotation found and supported for component scanning
+DEBUG [main] (PathMatchingResourcePatternResolver.java:550) - Looking for matching resources in directory tree [G:\Java_Project\AdProducer\target\test-classes\com\ad\producer\service]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:612) - Searching directory [G:\Java_Project\AdProducer\target\test-classes\com\ad\producer\service] for files matching pattern [G:/Java_Project/AdProducer/target/test-classes/com/ad/producer/service/**/*.class]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:612) - Searching directory [G:\Java_Project\AdProducer\target\test-classes\com\ad\producer\service\test] for files matching pattern [G:/Java_Project/AdProducer/target/test-classes/com/ad/producer/service/**/*.class]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:550) - Looking for matching resources in directory tree [G:\Java_Project\AdProducer\target\classes\com\ad\producer\service]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:612) - Searching directory [G:\Java_Project\AdProducer\target\classes\com\ad\producer\service] for files matching pattern [G:/Java_Project/AdProducer/target/classes/com/ad/producer/service/**/*.class]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:351) - Resolved location pattern [classpath*:com/ad/producer/service/**/*.class] to resources [file [G:\Java_Project\AdProducer\target\test-classes\com\ad\producer\service\test\CreativesServiceTest.class], file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\service\CreativesService.class], file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\service\CreativesServiceForTest.class]]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:273) - Identified candidate component class: file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\service\CreativesService.class]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:273) - Identified candidate component class: file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\service\CreativesServiceForTest.class]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:231) - JSR-250 &apos;javax.annotation.ManagedBean&apos; found and supported for component scanning
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:239) - JSR-330 &apos;javax.inject.Named&apos; annotation found and supported for component scanning
+DEBUG [main] (PathMatchingResourcePatternResolver.java:550) - Looking for matching resources in directory tree [G:\Java_Project\AdProducer\target\classes\com\ad\producer\controller]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:612) - Searching directory [G:\Java_Project\AdProducer\target\classes\com\ad\producer\controller] for files matching pattern [G:/Java_Project/AdProducer/target/classes/com/ad/producer/controller/**/*.class]
+DEBUG [main] (PathMatchingResourcePatternResolver.java:351) - Resolved location pattern [classpath*:com/ad/producer/controller/**/*.class] to resources [file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\controller\AdvListController.class], file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\controller\MyResource.class]]
+DEBUG [main] (ClassPathScanningCandidateComponentProvider.java:273) - Identified candidate component class: file [G:\Java_Project\AdProducer\target\classes\com\ad\producer\controller\AdvListController.class]
+DEBUG [main] (BeanDefinitionParserDelegate.java:500) - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [com.ad.producer.util.Utils#0]
+ INFO [main] (XmlBeanDefinitionReader.java:315) - Loading XML bean definitions from class path resource [databaseConfigTest.xml]
+DEBUG [main] (DefaultDocumentLoader.java:72) - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG [main] (PluggableSchemaResolver.java:118) - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+DEBUG [main] (PluggableSchemaResolver.java:118) - Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.2.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.2.xsd
+DEBUG [main] (PluggableSchemaResolver.java:118) - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+DEBUG [main] (DefaultBeanDefinitionDocumentReader.java:106) - Loading bean definitions
+DEBUG [main] (DefaultBeanDefinitionDocumentReader.java:275) - Imported 8 bean definitions from relative location [databaseConfigTest.xml]
+DEBUG [main] (AbstractBeanDefinitionReader.java:216) - Loaded 24 bean definitions from location pattern [classpath:applicationContextTest.xml]
+ INFO [main] (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.GenericApplicationContext@571f0759: startup date [Wed Jul 27 08:57:27 EEST 2016]; root of context hierarchy
+DEBUG [main] (AbstractApplicationContext.java:540) - Bean factory for org.springframework.context.support.GenericApplicationContext@571f0759: org.springframework.beans.factory.support.DefaultListableBeanFactory@541cbc53: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,creativesDAOImpl,creativesService,creativesServiceForTest,advListController,configProperties,webServer,configuration,com.ad.producer.util.Utils#0,cacheManager,ehcache,dataSource,sessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,transactionManager,hibernateTemplate]; root of factory hierarchy
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;configProperties&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;configProperties&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;configProperties&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;configProperties&apos;
+ INFO [main] (PropertiesLoaderSupport.java:172) - Loading properties file from class path resource [configuration.properties]
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+ INFO [main] (AutowiredAnnotationBeanPostProcessor.java:141) - JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0&apos; to allow for resolving potential circular references
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;sessionFactory&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;sessionFactory&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;sessionFactory&apos; to allow for resolving potential circular references
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;dataSource&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;dataSource&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;dataSource&apos; to allow for resolving potential circular references
+ INFO [main] (DriverManagerDataSource.java:153) - Loaded JDBC driver: org.apache.derby.jdbc.ClientDriver
+ INFO [main] (AbstractApplicationContext.java:1374) - Bean &apos;dataSource&apos; of type [class org.springframework.jdbc.datasource.DriverManagerDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;dataSource&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:1555) - Invoking afterPropertiesSet() on bean with name &apos;sessionFactory&apos;
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@3305173f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@3305173f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Boolean -&gt; org.hibernate.type.BooleanType@3305173f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration numeric_boolean -&gt; org.hibernate.type.NumericBooleanType@73e171d3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration true_false -&gt; org.hibernate.type.TrueFalseType@9a68065
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration yes_no -&gt; org.hibernate.type.YesNoType@60219482
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration byte -&gt; org.hibernate.type.ByteType@fe6cb1e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration byte -&gt; org.hibernate.type.ByteType@fe6cb1e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Byte -&gt; org.hibernate.type.ByteType@fe6cb1e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration character -&gt; org.hibernate.type.CharacterType@2b66def7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration char -&gt; org.hibernate.type.CharacterType@2b66def7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Character -&gt; org.hibernate.type.CharacterType@2b66def7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration short -&gt; org.hibernate.type.ShortType@597e83fc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration short -&gt; org.hibernate.type.ShortType@597e83fc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Short -&gt; org.hibernate.type.ShortType@597e83fc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration integer -&gt; org.hibernate.type.IntegerType@2f6868dd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration int -&gt; org.hibernate.type.IntegerType@2f6868dd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Integer -&gt; org.hibernate.type.IntegerType@2f6868dd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration long -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration long -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Long -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration float -&gt; org.hibernate.type.FloatType@3096c11b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration float -&gt; org.hibernate.type.FloatType@3096c11b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Float -&gt; org.hibernate.type.FloatType@3096c11b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration double -&gt; org.hibernate.type.DoubleType@d13283f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration double -&gt; org.hibernate.type.DoubleType@d13283f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Double -&gt; org.hibernate.type.DoubleType@d13283f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration big_decimal -&gt; org.hibernate.type.BigDecimalType@27592d22
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.math.BigDecimal -&gt; org.hibernate.type.BigDecimalType@27592d22
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration big_integer -&gt; org.hibernate.type.BigIntegerType@ff368e0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.math.BigInteger -&gt; org.hibernate.type.BigIntegerType@ff368e0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration string -&gt; org.hibernate.type.StringType@70c70bfd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.String -&gt; org.hibernate.type.StringType@70c70bfd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration url -&gt; org.hibernate.type.UrlType@599ae230
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.net.URL -&gt; org.hibernate.type.UrlType@599ae230
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration date -&gt; org.hibernate.type.DateType@523e0f04
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Date -&gt; org.hibernate.type.DateType@523e0f04
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration time -&gt; org.hibernate.type.TimeType@12c005a0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Time -&gt; org.hibernate.type.TimeType@12c005a0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration timestamp -&gt; org.hibernate.type.TimestampType@1d0975b0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Timestamp -&gt; org.hibernate.type.TimestampType@1d0975b0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Date -&gt; org.hibernate.type.TimestampType@1d0975b0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration dbtimestamp -&gt; org.hibernate.type.DbTimestampType@5910eb56
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration calendar -&gt; org.hibernate.type.CalendarType@1eaf139a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Calendar -&gt; org.hibernate.type.CalendarType@1eaf139a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.GregorianCalendar -&gt; org.hibernate.type.CalendarType@1eaf139a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration calendar_date -&gt; org.hibernate.type.CalendarDateType@b7ff0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration locale -&gt; org.hibernate.type.LocaleType@70c8b4c0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Locale -&gt; org.hibernate.type.LocaleType@70c8b4c0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration currency -&gt; org.hibernate.type.CurrencyType@2e57d154
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Currency -&gt; org.hibernate.type.CurrencyType@2e57d154
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration timezone -&gt; org.hibernate.type.TimeZoneType@44de86b6
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.TimeZone -&gt; org.hibernate.type.TimeZoneType@44de86b6
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration class -&gt; org.hibernate.type.ClassType@2eaae131
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Class -&gt; org.hibernate.type.ClassType@2eaae131
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration uuid-binary -&gt; org.hibernate.type.UUIDBinaryType@3641fc8c
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.UUID -&gt; org.hibernate.type.UUIDBinaryType@3641fc8c
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration uuid-char -&gt; org.hibernate.type.UUIDCharType@366237a0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration pg-uuid -&gt; org.hibernate.type.PostgresUUIDType@1ac4d48
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration binary -&gt; org.hibernate.type.BinaryType@3a25529
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration byte[] -&gt; org.hibernate.type.BinaryType@3a25529
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [B -&gt; org.hibernate.type.BinaryType@3a25529
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper-binary -&gt; org.hibernate.type.WrapperBinaryType@51760e50
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration Byte[] -&gt; org.hibernate.type.WrapperBinaryType@51760e50
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [Ljava.lang.Byte; -&gt; org.hibernate.type.WrapperBinaryType@51760e50
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration image -&gt; org.hibernate.type.ImageType@35080a9e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration characters -&gt; org.hibernate.type.CharArrayType@42b5548
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration char[] -&gt; org.hibernate.type.CharArrayType@42b5548
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [C -&gt; org.hibernate.type.CharArrayType@42b5548
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper-characters -&gt; org.hibernate.type.CharacterArrayType@b98653a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [Ljava.lang.Character; -&gt; org.hibernate.type.CharacterArrayType@b98653a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration Character[] -&gt; org.hibernate.type.CharacterArrayType@b98653a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration text -&gt; org.hibernate.type.TextType@622a11f3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration blob -&gt; org.hibernate.type.BlobType@22b07dcb
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Blob -&gt; org.hibernate.type.BlobType@22b07dcb
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration materialized_blob -&gt; org.hibernate.type.MaterializedBlobType@44858a4d
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper_materialized_blob -&gt; org.hibernate.type.WrappedMaterializedBlobType@56b3c123
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration clob -&gt; org.hibernate.type.ClobType@60217837
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Clob -&gt; org.hibernate.type.ClobType@60217837
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration materialized_clob -&gt; org.hibernate.type.MaterializedClobType@5e08506b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper_characters_clob -&gt; org.hibernate.type.CharacterArrayClobType@2a61ed8a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration characters_clob -&gt; org.hibernate.type.PrimitiveCharacterArrayClobType@505d246
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration serializable -&gt; org.hibernate.type.SerializableType@741930db
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration object -&gt; org.hibernate.type.ObjectType@367a1d62
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Object -&gt; org.hibernate.type.ObjectType@367a1d62
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_date -&gt; org.hibernate.type.AdaptedImmutableType@3743ff5e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_time -&gt; org.hibernate.type.AdaptedImmutableType@4eb7b28b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_timestamp -&gt; org.hibernate.type.AdaptedImmutableType@33ef488a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_dbtimestamp -&gt; org.hibernate.type.AdaptedImmutableType@64e362f2
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_calendar -&gt; org.hibernate.type.AdaptedImmutableType@620c40ce
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_calendar_date -&gt; org.hibernate.type.AdaptedImmutableType@2d514faa
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_binary -&gt; org.hibernate.type.AdaptedImmutableType@53aa85ce
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_serializable -&gt; org.hibernate.type.AdaptedImmutableType@2b0dfb46
+ INFO [main] (Version.java:37) - Hibernate Commons Annotations 3.2.0.Final
+ INFO [main] (Environment.java:593) - Hibernate 3.6.3.Final
+ INFO [main] (Environment.java:626) - hibernate.properties not found
+ INFO [main] (Environment.java:804) - Bytecode provider name : javassist
+ INFO [main] (Environment.java:685) - using JDK 1.4 java.sql.Timestamp handling
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [uuid2] -&gt; [class org.hibernate.id.UUIDGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [guid] -&gt; [class org.hibernate.id.GUIDGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [uuid] -&gt; [class org.hibernate.id.UUIDHexGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [uuid.hex] -&gt; [class org.hibernate.id.UUIDHexGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [hilo] -&gt; [class org.hibernate.id.TableHiLoGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [assigned] -&gt; [class org.hibernate.id.Assigned]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [identity] -&gt; [class org.hibernate.id.IdentityGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [select] -&gt; [class org.hibernate.id.SelectGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [sequence] -&gt; [class org.hibernate.id.SequenceGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [seqhilo] -&gt; [class org.hibernate.id.SequenceHiLoGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [increment] -&gt; [class org.hibernate.id.IncrementGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [foreign] -&gt; [class org.hibernate.id.ForeignGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [sequence-identity] -&gt; [class org.hibernate.id.SequenceIdentityGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [enhanced-sequence] -&gt; [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:100) - Registering IdentifierGenerator strategy [enhanced-table] -&gt; [class org.hibernate.id.enhanced.TableGenerator]
+DEBUG [main] (Configuration.java:3968) - Processing hbm.xml files
+DEBUG [main] (Configuration.java:3998) - Process annotated classes
+ INFO [main] (AnnotationBinder.java:532) - Binding entity from annotated class: com.ad.producer.domain.Creatives
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3DiscriminatorColumn{logicalColumnName&apos;DTYPE&apos;, discriminatorTypeName=&apos;string&apos;}
+DEBUG [main] (AnnotationBinder.java:1019) - no value specified for &apos;javax.persistence.sharedCache.mode&apos;; using UNSPECIFIED
+DEBUG [main] (EntityBinder.java:364) - Import with entity name Creatives
+ INFO [main] (EntityBinder.java:530) - Bind entity com.ad.producer.domain.Creatives on table Creatives
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=id, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property id with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for id
+DEBUG [main] (PropertyBinder.java:255) - Building property id
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=countries, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property countries with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for countries
+DEBUG [main] (PropertyBinder.java:255) - Building property countries
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=description, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property description with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for description
+DEBUG [main] (PropertyBinder.java:255) - Building property description
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=excluded_countries, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property excluded_countries with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for excluded_countries
+DEBUG [main] (PropertyBinder.java:255) - Building property excluded_countries
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=excluded_os, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property excluded_os with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for excluded_os
+DEBUG [main] (PropertyBinder.java:255) - Building property excluded_os
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=os, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property os with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for os
+DEBUG [main] (PropertyBinder.java:255) - Building property os
+DEBUG [main] (Ejb3Column.java:192) - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Creatives), mappingColumn=url, insertable=true, updatable=true, unique=false}
+DEBUG [main] (PropertyBinder.java:175) - binding property url with lazy=false
+DEBUG [main] (SimpleValueBinder.java:303) - building SimpleValue for url
+DEBUG [main] (PropertyBinder.java:255) - Building property url
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for id
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for countries
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for description
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for excluded_countries
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for excluded_os
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for os
+DEBUG [main] (SimpleValueBinder.java:341) - Setting SimpleValue typeName for url
+DEBUG [main] (Configuration.java:1439) - processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG [main] (Configuration.java:1681) - processing extends queue
+DEBUG [main] (Configuration.java:1735) - processing extends queue
+DEBUG [main] (Configuration.java:1684) - processing collection mappings
+DEBUG [main] (Configuration.java:1694) - processing native query and ResultSetMapping mappings
+DEBUG [main] (Configuration.java:1702) - processing association property references
+DEBUG [main] (Configuration.java:1724) - processing foreign key constraints
+ INFO [main] (Configuration.java:1649) - Hibernate Validator not found: ignoring
+DEBUG [main] (LoggerFactory.java:29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+ INFO [main] (Version.java:27) - HV000001: Hibernate Validator 5.0.1.Final
+DEBUG [main] (DefaultTraversableResolver.java:106) - Found javax.persistence.Persistence on classpath containing &apos;getPersistenceUtil&apos;. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+DEBUG [main] (DefaultTraversableResolver.java:117) - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+DEBUG [main] (ValidationXmlParser.java:88) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+DEBUG [main] (ValidationXmlParser.java:95) - No META-INF/validation.xml found. Using annotation based configuration only.
+ INFO [main] (LocalSessionFactoryBean.java:780) - Building new Hibernate SessionFactory
+DEBUG [main] (Configuration.java:1827) - Preparing to build session factory with filters : {}
+DEBUG [main] (Configuration.java:3968) - Processing hbm.xml files
+DEBUG [main] (Configuration.java:3998) - Process annotated classes
+DEBUG [main] (Configuration.java:1439) - processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG [main] (Configuration.java:1681) - processing extends queue
+DEBUG [main] (Configuration.java:1735) - processing extends queue
+DEBUG [main] (Configuration.java:1684) - processing collection mappings
+DEBUG [main] (Configuration.java:1694) - processing native query and ResultSetMapping mappings
+DEBUG [main] (Configuration.java:1702) - processing association property references
+DEBUG [main] (Configuration.java:1724) - processing foreign key constraints
+DEBUG [main] (DefaultTraversableResolver.java:106) - Found javax.persistence.Persistence on classpath containing &apos;getPersistenceUtil&apos;. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+DEBUG [main] (DefaultTraversableResolver.java:117) - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+DEBUG [main] (ValidationXmlParser.java:88) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+DEBUG [main] (ValidationXmlParser.java:95) - No META-INF/validation.xml found. Using annotation based configuration only.
+DEBUG [main] (Configuration.java:1869) - Legacy Validator not present in classpath, ignoring event listener registration
+DEBUG [main] (DefaultTraversableResolver.java:106) - Found javax.persistence.Persistence on classpath containing &apos;getPersistenceUtil&apos;. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+DEBUG [main] (DefaultTraversableResolver.java:117) - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+DEBUG [main] (ValidationXmlParser.java:88) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+DEBUG [main] (ValidationXmlParser.java:95) - No META-INF/validation.xml found. Using annotation based configuration only.
+DEBUG [main] (HibernateSearchEventListenerRegister.java:231) - Search not present in classpath, ignoring event listener registration.
+ INFO [main] (HibernateSearchEventListenerRegister.java:75) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+ INFO [main] (ConnectionProviderFactory.java:173) - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+DEBUG [main] (DriverManagerDataSource.java:162) - Creating new JDBC DriverManager Connection to [jdbc:derby://localhost:1527/sample]
+ INFO [main] (Dialect.java:135) - Using dialect: org.hibernate.dialect.DerbyDialect
+ INFO [main] (SettingsFactory.java:126) - Database -&gt;
+       name : Apache Derby
+    version : 10.8.2.2 - (1181258)
+      major : 10
+      minor : 8
+ INFO [main] (SettingsFactory.java:132) - Driver -&gt;
+       name : Apache Derby Network Client JDBC Driver
+    version : 10.10.1.1 - (1458268)
+      major : 10
+      minor : 10
+ INFO [main] (TransactionFactoryFactory.java:62) - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+ INFO [main] (TransactionManagerLookupFactory.java:80) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ INFO [main] (SettingsFactory.java:179) - Automatic flush during beforeCompletion(): disabled
+ INFO [main] (SettingsFactory.java:183) - Automatic session close at end of transaction: disabled
+ INFO [main] (SettingsFactory.java:198) - Scrollable result sets: enabled
+DEBUG [main] (SettingsFactory.java:202) - Wrap result sets: disabled
+ INFO [main] (SettingsFactory.java:206) - JDBC3 getGeneratedKeys(): disabled
+ INFO [main] (SettingsFactory.java:214) - Connection release mode: auto
+ INFO [main] (SettingsFactory.java:232) - Default schema: APP
+ INFO [main] (SettingsFactory.java:241) - Default batch fetch size: 1
+ INFO [main] (SettingsFactory.java:245) - Generate SQL with comments: disabled
+ INFO [main] (SettingsFactory.java:249) - Order SQL updates by primary key: enabled
+ INFO [main] (SettingsFactory.java:253) - Order SQL inserts for batching: disabled
+ INFO [main] (SettingsFactory.java:431) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ INFO [main] (ASTQueryTranslatorFactory.java:47) - Using ASTQueryTranslatorFactory
+ INFO [main] (SettingsFactory.java:261) - Query language substitutions: {}
+ INFO [main] (SettingsFactory.java:266) - JPA-QL strict compliance: disabled
+ INFO [main] (SettingsFactory.java:271) - Second-level cache: enabled
+ INFO [main] (SettingsFactory.java:275) - Query cache: disabled
+ INFO [main] (SettingsFactory.java:406) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+ INFO [main] (SettingsFactory.java:285) - Optimize cache for minimal puts: disabled
+ INFO [main] (SettingsFactory.java:294) - Structured second-level cache entries: disabled
+ INFO [main] (SettingsFactory.java:314) - Echoing all SQL to stdout
+ INFO [main] (SettingsFactory.java:323) - Statistics: disabled
+ INFO [main] (SettingsFactory.java:327) - Deleted entity synthetic identifier rollback: disabled
+ INFO [main] (SettingsFactory.java:343) - Default entity-mode: pojo
+ INFO [main] (SettingsFactory.java:347) - Named query checking : enabled
+ INFO [main] (SettingsFactory.java:351) - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+ INFO [main] (SessionFactoryImpl.java:202) - building session factory
+DEBUG [main] (SessionFactoryImpl.java:206) - Statistics initialized [enabled=false]}
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@3305173f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@3305173f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Boolean -&gt; org.hibernate.type.BooleanType@3305173f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration numeric_boolean -&gt; org.hibernate.type.NumericBooleanType@73e171d3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration true_false -&gt; org.hibernate.type.TrueFalseType@9a68065
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration yes_no -&gt; org.hibernate.type.YesNoType@60219482
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration byte -&gt; org.hibernate.type.ByteType@fe6cb1e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration byte -&gt; org.hibernate.type.ByteType@fe6cb1e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Byte -&gt; org.hibernate.type.ByteType@fe6cb1e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration character -&gt; org.hibernate.type.CharacterType@2b66def7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration char -&gt; org.hibernate.type.CharacterType@2b66def7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Character -&gt; org.hibernate.type.CharacterType@2b66def7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration short -&gt; org.hibernate.type.ShortType@597e83fc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration short -&gt; org.hibernate.type.ShortType@597e83fc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Short -&gt; org.hibernate.type.ShortType@597e83fc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration integer -&gt; org.hibernate.type.IntegerType@2f6868dd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration int -&gt; org.hibernate.type.IntegerType@2f6868dd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Integer -&gt; org.hibernate.type.IntegerType@2f6868dd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration long -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration long -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Long -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration float -&gt; org.hibernate.type.FloatType@3096c11b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration float -&gt; org.hibernate.type.FloatType@3096c11b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Float -&gt; org.hibernate.type.FloatType@3096c11b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration double -&gt; org.hibernate.type.DoubleType@d13283f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration double -&gt; org.hibernate.type.DoubleType@d13283f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Double -&gt; org.hibernate.type.DoubleType@d13283f
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration big_decimal -&gt; org.hibernate.type.BigDecimalType@27592d22
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.math.BigDecimal -&gt; org.hibernate.type.BigDecimalType@27592d22
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration big_integer -&gt; org.hibernate.type.BigIntegerType@ff368e0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.math.BigInteger -&gt; org.hibernate.type.BigIntegerType@ff368e0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration string -&gt; org.hibernate.type.StringType@70c70bfd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.String -&gt; org.hibernate.type.StringType@70c70bfd
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration url -&gt; org.hibernate.type.UrlType@599ae230
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.net.URL -&gt; org.hibernate.type.UrlType@599ae230
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration date -&gt; org.hibernate.type.DateType@523e0f04
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Date -&gt; org.hibernate.type.DateType@523e0f04
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration time -&gt; org.hibernate.type.TimeType@12c005a0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Time -&gt; org.hibernate.type.TimeType@12c005a0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration timestamp -&gt; org.hibernate.type.TimestampType@1d0975b0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Timestamp -&gt; org.hibernate.type.TimestampType@1d0975b0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Date -&gt; org.hibernate.type.TimestampType@1d0975b0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration dbtimestamp -&gt; org.hibernate.type.DbTimestampType@5910eb56
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration calendar -&gt; org.hibernate.type.CalendarType@1eaf139a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Calendar -&gt; org.hibernate.type.CalendarType@1eaf139a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.GregorianCalendar -&gt; org.hibernate.type.CalendarType@1eaf139a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration calendar_date -&gt; org.hibernate.type.CalendarDateType@b7ff0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration locale -&gt; org.hibernate.type.LocaleType@70c8b4c0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Locale -&gt; org.hibernate.type.LocaleType@70c8b4c0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration currency -&gt; org.hibernate.type.CurrencyType@2e57d154
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.Currency -&gt; org.hibernate.type.CurrencyType@2e57d154
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration timezone -&gt; org.hibernate.type.TimeZoneType@44de86b6
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.TimeZone -&gt; org.hibernate.type.TimeZoneType@44de86b6
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration class -&gt; org.hibernate.type.ClassType@2eaae131
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Class -&gt; org.hibernate.type.ClassType@2eaae131
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration uuid-binary -&gt; org.hibernate.type.UUIDBinaryType@3641fc8c
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.util.UUID -&gt; org.hibernate.type.UUIDBinaryType@3641fc8c
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration uuid-char -&gt; org.hibernate.type.UUIDCharType@366237a0
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration pg-uuid -&gt; org.hibernate.type.PostgresUUIDType@1ac4d48
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration binary -&gt; org.hibernate.type.BinaryType@3a25529
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration byte[] -&gt; org.hibernate.type.BinaryType@3a25529
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [B -&gt; org.hibernate.type.BinaryType@3a25529
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper-binary -&gt; org.hibernate.type.WrapperBinaryType@51760e50
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration Byte[] -&gt; org.hibernate.type.WrapperBinaryType@51760e50
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [Ljava.lang.Byte; -&gt; org.hibernate.type.WrapperBinaryType@51760e50
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration image -&gt; org.hibernate.type.ImageType@35080a9e
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration characters -&gt; org.hibernate.type.CharArrayType@42b5548
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration char[] -&gt; org.hibernate.type.CharArrayType@42b5548
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [C -&gt; org.hibernate.type.CharArrayType@42b5548
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper-characters -&gt; org.hibernate.type.CharacterArrayType@b98653a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration [Ljava.lang.Character; -&gt; org.hibernate.type.CharacterArrayType@b98653a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration Character[] -&gt; org.hibernate.type.CharacterArrayType@b98653a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration text -&gt; org.hibernate.type.TextType@622a11f3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration blob -&gt; org.hibernate.type.BlobType@22b07dcb
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Blob -&gt; org.hibernate.type.BlobType@22b07dcb
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration materialized_blob -&gt; org.hibernate.type.MaterializedBlobType@44858a4d
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper_materialized_blob -&gt; org.hibernate.type.WrappedMaterializedBlobType@56b3c123
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration clob -&gt; org.hibernate.type.ClobType@60217837
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Clob -&gt; org.hibernate.type.ClobType@60217837
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration materialized_clob -&gt; org.hibernate.type.MaterializedClobType@5e08506b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper_characters_clob -&gt; org.hibernate.type.CharacterArrayClobType@2a61ed8a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration characters_clob -&gt; org.hibernate.type.PrimitiveCharacterArrayClobType@505d246
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration serializable -&gt; org.hibernate.type.SerializableType@741930db
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration object -&gt; org.hibernate.type.ObjectType@367a1d62
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.lang.Object -&gt; org.hibernate.type.ObjectType@367a1d62
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_date -&gt; org.hibernate.type.AdaptedImmutableType@6309b022
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_time -&gt; org.hibernate.type.AdaptedImmutableType@57797bd3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_timestamp -&gt; org.hibernate.type.AdaptedImmutableType@1d4ef680
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_dbtimestamp -&gt; org.hibernate.type.AdaptedImmutableType@e09fad3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_calendar -&gt; org.hibernate.type.AdaptedImmutableType@5873ad23
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_calendar_date -&gt; org.hibernate.type.AdaptedImmutableType@71046bb7
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_binary -&gt; org.hibernate.type.AdaptedImmutableType@6f68922c
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration imm_serializable -&gt; org.hibernate.type.AdaptedImmutableType@11ff1bd3
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration blob -&gt; org.hibernate.type.BlobType@68c9f98d
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [blob] overrides previous : org.hibernate.type.BlobType@22b07dcb
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Blob -&gt; org.hibernate.type.BlobType@68c9f98d
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@22b07dcb
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration clob -&gt; org.hibernate.type.ClobType@19d81df3
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [clob] overrides previous : org.hibernate.type.ClobType@60217837
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration java.sql.Clob -&gt; org.hibernate.type.ClobType@19d81df3
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@60217837
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration characters_clob -&gt; org.hibernate.type.PrimitiveCharacterArrayClobType@388cd352
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@505d246
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper_characters_clob -&gt; org.hibernate.type.CharacterArrayClobType@7c584ba
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2a61ed8a
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration materialized_blob -&gt; org.hibernate.type.MaterializedBlobType@241ecdba
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@44858a4d
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration materialized_clob -&gt; org.hibernate.type.MaterializedClobType@3b9649c6
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@5e08506b
+DEBUG [main] (BasicTypeRegistry.java:147) - Adding type registration wrapper_materialized_blob -&gt; org.hibernate.type.WrappedMaterializedBlobType@625480dc
+ INFO [main] (BasicTypeRegistry.java:150) - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@56b3c123
+DEBUG [main] (SessionFactoryImpl.java:228) - Session factory constructed with filter configurations : {}
+DEBUG [main] (SessionFactoryImpl.java:232) - instantiating session factory with properties: {java.vendor=Oracle Corporation, localRepository=C:\Users\Dimon\.m2\repository, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.connection.characterEncoding=UTF-8, hibernate.connection.charset=UTF-8, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes, user.country.format=UA, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, sun.desktop=windows, hibernate.c3p0.max_size=8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_25-b16, hibernate.c3p0.min_size=5, user.name=Dimon, user.language.format=uk, hibernate.c3p0.timeout=300, user.language=ru, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_25\jre\bin, java.version=1.7.0_25, user.timezone=Europe/Helsinki, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=51.0, user.country=RU, java.home=C:\Program Files\Java\jdk1.7.0_25\jre, java.vm.info=mixed mode, os.version=6.1, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, surefire.real.class.path=G:\Java_Project\AdProducer\target\surefire\surefirebooter347300930097691345.jar, path.separator=;, java.vm.version=23.25-b01, user.variant=, maven.ext.class.path=C:\Program Files\NetBeans 8.0.1\java\maven-nblib\netbeans-eventspy.jar, java.awt.printerjob=sun.awt.windows.WPrinterJob, hibernate.order_updates=true, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.c3po.acquire_increment=1, user.script=, hibernate.check_nullability=false, user.home=C:\Users\Dimon, java.specification.vendor=Oracle Corporation, test=com.ad.producer.service.test.CreativesServiceTest, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.7.0_25\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\scala\bin;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\Skype\Phone\;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\NetBeans 8.0.1\java\maven\bin;K:\TortoiseSvn\bin;K:\Subversion\bin;., java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.DerbyDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=G:\Java_Project\AdProducer\target\surefire\surefirebooter347300930097691345.jar G:\Java_Project\AdProducer\target\surefire\surefire7954645109296335756tmp G:\Java_Project\AdProducer\target\surefire\surefire1105932150742934081tmp, java.class.path=G:\Java_Project\AdProducer\target\test-classes;G:\Java_Project\AdProducer\target\classes;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\containers\jersey-container-grizzly2-http\2.23.1\jersey-container-grizzly2-http-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b34\javax.inject-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-server\2.3.23\grizzly-http-server-2.3.23.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http\2.3.23\grizzly-http-2.3.23.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\core\jersey-common\2.23.1\jersey-common-2.23.1.jar;C:\Users\Dimon\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.23.1\jersey-guava-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b34\hk2-api-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b34\aopalliance-repackaged-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b34\hk2-locator-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\core\jersey-server\2.23.1\jersey-server-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\core\jersey-client\2.23.1\jersey-client-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.23.1\jersey-media-jaxb-2.23.1.jar;C:\Users\Dimon\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.23.1\jersey-container-servlet-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-web\3.2.7.RELEASE\spring-web-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\Dimon\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\Dimon\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\Dimon\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.23.1\jersey-media-json-jackson-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.23.1\jersey-entity-filtering-2.23.1.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.5.4\jackson-jaxrs-base-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.4\jackson-core-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.4\jackson-databind-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.5.4\jackson-jaxrs-json-provider-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.5.4\jackson-module-jaxb-annotations-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.4\jackson-annotations-2.5.4.jar;C:\Users\Dimon\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Dimon\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-server-jaxws\2.3.24\grizzly-http-server-jaxws-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\slf4j\slf4j-log4j12\1.5.2\slf4j-log4j12-1.5.2.jar;C:\Users\Dimon\.m2\repository\org\slf4j\slf4j-api\1.5.2\slf4j-api-1.5.2.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-aop\3.2.7.RELEASE\spring-aop-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-aspects\3.2.7.RELEASE\spring-aspects-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\aspectj\aspectjweaver\1.7.2\aspectjweaver-1.7.2.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-beans\3.2.7.RELEASE\spring-beans-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-context\3.2.7.RELEASE\spring-context-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-context-support\3.2.7.RELEASE\spring-context-support-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-core\3.2.7.RELEASE\spring-core-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-expression\3.2.7.RELEASE\spring-expression-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-instrument\3.2.7.RELEASE\spring-instrument-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-jdbc\3.2.7.RELEASE\spring-jdbc-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-jms\3.2.7.RELEASE\spring-jms-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-orm\3.2.7.RELEASE\spring-orm-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-oxm\3.2.7.RELEASE\spring-oxm-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-struts\3.2.7.RELEASE\spring-struts-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-webmvc\3.2.7.RELEASE\spring-webmvc-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\struts\struts\1.2.9\struts-1.2.9.jar;C:\Users\Dimon\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\Dimon\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Dimon\.m2\repository\commons-fileupload\commons-fileupload\1.0\commons-fileupload-1.0.jar;C:\Users\Dimon\.m2\repository\commons-validator\commons-validator\1.1.4\commons-validator-1.1.4.jar;C:\Users\Dimon\.m2\repository\oro\oro\2.0.7\oro-2.0.7.jar;C:\Users\Dimon\.m2\repository\xalan\xalan\2.5.1\xalan-2.5.1.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-test\3.2.7.RELEASE\spring-test-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-tx\3.2.7.RELEASE\spring-tx-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-core\3.6.3.Final\hibernate-core-3.6.3.Final.jar;C:\Users\Dimon\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\Dimon\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\Dimon\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Dimon\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\Dimon\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-annotations\3.3.1.GA\hibernate-annotations-3.3.1.GA.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate\3.2.6.ga\hibernate-3.2.6.ga.jar;C:\Users\Dimon\.m2\repository\asm\asm-attrs\1.5.3\asm-attrs-1.5.3.jar;C:\Users\Dimon\.m2\repository\cglib\cglib\2.1_3\cglib-2.1_3.jar;C:\Users\Dimon\.m2\repository\asm\asm\1.5.3\asm-1.5.3.jar;C:\Users\Dimon\.m2\repository\org\hibernate\ejb3-persistence\1.0.1.GA\ejb3-persistence-1.0.1.GA.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\Dimon\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-validator\5.0.1.Final\hibernate-validator-5.0.1.Final.jar;C:\Users\Dimon\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Dimon\.m2\repository\org\jboss\logging\jboss-logging\3.1.1.GA\jboss-logging-3.1.1.GA.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\classmate\0.8.0\classmate-0.8.0.jar;C:\Users\Dimon\.m2\repository\org\apache\derby\derbyclient\10.10.1.1\derbyclient-10.10.1.1.jar;C:\Users\Dimon\.m2\repository\net\sf\ehcache\ehcache\2.7.4\ehcache-2.7.4.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\ext\jersey-spring3\2.23.1\jersey-spring3-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2\2.4.0-b34\hk2-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b34\hk2-utils-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\config-types\2.4.0-b34\config-types-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-core\2.4.0-b34\hk2-core-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-config\2.4.0-b34\hk2-config-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\jvnet\tiger-types\1.4\tiger-types-1.4.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\bean-validator\2.4.0-b34\bean-validator-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-runlevel\2.4.0-b34\hk2-runlevel-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\class-model\2.4.0-b34\class-model-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\asm-all-repackaged\2.4.0-b34\asm-all-repackaged-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\spring-bridge\2.4.0-b34\spring-bridge-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.23.1\jersey-container-servlet-core-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-servlet\2.3.24\grizzly-http-servlet-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-servlet-extras\2.3.24\grizzly-http-servlet-extras-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-server-multipart\2.3.24\grizzly-http-server-multipart-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-framework\2.3.24\grizzly-framework-2.3.24.jar;C:\Users\Dimon\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Dimon\.m2\repository\org\glassfish\main\extras\glassfish-embedded-web\3.1.2\glassfish-embedded-web-3.1.2.jar;, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, hibernate.c3p0.init_size=1, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, surefire.test.class.path=G:\Java_Project\AdProducer\target\test-classes;G:\Java_Project\AdProducer\target\classes;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\containers\jersey-container-grizzly2-http\2.23.1\jersey-container-grizzly2-http-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b34\javax.inject-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-server\2.3.23\grizzly-http-server-2.3.23.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http\2.3.23\grizzly-http-2.3.23.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\core\jersey-common\2.23.1\jersey-common-2.23.1.jar;C:\Users\Dimon\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.23.1\jersey-guava-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b34\hk2-api-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b34\aopalliance-repackaged-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b34\hk2-locator-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\core\jersey-server\2.23.1\jersey-server-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\core\jersey-client\2.23.1\jersey-client-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.23.1\jersey-media-jaxb-2.23.1.jar;C:\Users\Dimon\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.23.1\jersey-container-servlet-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-web\3.2.7.RELEASE\spring-web-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\Dimon\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\Dimon\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\Dimon\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\media\jersey-media-json-jackson\2.23.1\jersey-media-json-jackson-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\ext\jersey-entity-filtering\2.23.1\jersey-entity-filtering-2.23.1.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.5.4\jackson-jaxrs-base-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.4\jackson-core-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.4\jackson-databind-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.5.4\jackson-jaxrs-json-provider-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.5.4\jackson-module-jaxb-annotations-2.5.4.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.4\jackson-annotations-2.5.4.jar;C:\Users\Dimon\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Dimon\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-server-jaxws\2.3.24\grizzly-http-server-jaxws-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\slf4j\slf4j-log4j12\1.5.2\slf4j-log4j12-1.5.2.jar;C:\Users\Dimon\.m2\repository\org\slf4j\slf4j-api\1.5.2\slf4j-api-1.5.2.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-aop\3.2.7.RELEASE\spring-aop-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-aspects\3.2.7.RELEASE\spring-aspects-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\aspectj\aspectjweaver\1.7.2\aspectjweaver-1.7.2.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-beans\3.2.7.RELEASE\spring-beans-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-context\3.2.7.RELEASE\spring-context-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-context-support\3.2.7.RELEASE\spring-context-support-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-core\3.2.7.RELEASE\spring-core-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-expression\3.2.7.RELEASE\spring-expression-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-instrument\3.2.7.RELEASE\spring-instrument-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-jdbc\3.2.7.RELEASE\spring-jdbc-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-jms\3.2.7.RELEASE\spring-jms-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-orm\3.2.7.RELEASE\spring-orm-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-oxm\3.2.7.RELEASE\spring-oxm-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-struts\3.2.7.RELEASE\spring-struts-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-webmvc\3.2.7.RELEASE\spring-webmvc-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\struts\struts\1.2.9\struts-1.2.9.jar;C:\Users\Dimon\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\Dimon\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Dimon\.m2\repository\commons-fileupload\commons-fileupload\1.0\commons-fileupload-1.0.jar;C:\Users\Dimon\.m2\repository\commons-validator\commons-validator\1.1.4\commons-validator-1.1.4.jar;C:\Users\Dimon\.m2\repository\oro\oro\2.0.7\oro-2.0.7.jar;C:\Users\Dimon\.m2\repository\xalan\xalan\2.5.1\xalan-2.5.1.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-test\3.2.7.RELEASE\spring-test-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\springframework\spring-tx\3.2.7.RELEASE\spring-tx-3.2.7.RELEASE.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-core\3.6.3.Final\hibernate-core-3.6.3.Final.jar;C:\Users\Dimon\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\Dimon\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\Dimon\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Dimon\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.0.Final\hibernate-jpa-2.0-api-1.0.0.Final.jar;C:\Users\Dimon\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-annotations\3.3.1.GA\hibernate-annotations-3.3.1.GA.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate\3.2.6.ga\hibernate-3.2.6.ga.jar;C:\Users\Dimon\.m2\repository\asm\asm-attrs\1.5.3\asm-attrs-1.5.3.jar;C:\Users\Dimon\.m2\repository\cglib\cglib\2.1_3\cglib-2.1_3.jar;C:\Users\Dimon\.m2\repository\asm\asm\1.5.3\asm-1.5.3.jar;C:\Users\Dimon\.m2\repository\org\hibernate\ejb3-persistence\1.0.1.GA\ejb3-persistence-1.0.1.GA.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\Dimon\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\Dimon\.m2\repository\org\hibernate\hibernate-validator\5.0.1.Final\hibernate-validator-5.0.1.Final.jar;C:\Users\Dimon\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Dimon\.m2\repository\org\jboss\logging\jboss-logging\3.1.1.GA\jboss-logging-3.1.1.GA.jar;C:\Users\Dimon\.m2\repository\com\fasterxml\classmate\0.8.0\classmate-0.8.0.jar;C:\Users\Dimon\.m2\repository\org\apache\derby\derbyclient\10.10.1.1\derbyclient-10.10.1.1.jar;C:\Users\Dimon\.m2\repository\net\sf\ehcache\ehcache\2.7.4\ehcache-2.7.4.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\ext\jersey-spring3\2.23.1\jersey-spring3-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2\2.4.0-b34\hk2-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b34\hk2-utils-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\config-types\2.4.0-b34\config-types-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-core\2.4.0-b34\hk2-core-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-config\2.4.0-b34\hk2-config-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\jvnet\tiger-types\1.4\tiger-types-1.4.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\bean-validator\2.4.0-b34\bean-validator-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\hk2-runlevel\2.4.0-b34\hk2-runlevel-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\class-model\2.4.0-b34\class-model-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\external\asm-all-repackaged\2.4.0-b34\asm-all-repackaged-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\hk2\spring-bridge\2.4.0-b34\spring-bridge-2.4.0-b34.jar;C:\Users\Dimon\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.23.1\jersey-container-servlet-core-2.23.1.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-servlet\2.3.24\grizzly-http-servlet-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-servlet-extras\2.3.24\grizzly-http-servlet-extras-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-http-server-multipart\2.3.24\grizzly-http-server-multipart-2.3.24.jar;C:\Users\Dimon\.m2\repository\org\glassfish\grizzly\grizzly-framework\2.3.24\grizzly-framework-2.3.24.jar;C:\Users\Dimon\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Dimon\.m2\repository\org\glassfish\main\extras\glassfish-embedded-web\3.1.2\glassfish-embedded-web-3.1.2.jar;, java.io.tmpdir=C:\Users\Dimon\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.default_schema=APP, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.connection.useUnicode=true, user.dir=G:\Java_Project\AdProducer, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, basedir=G:\Java_Project\AdProducer, file.encoding=UTF-8, java.specification.version=1.7, hibernate.c3p0.max_statements=30, hibernate.show_sql=true}
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:90) - Setting dialect [org.hibernate.dialect.DerbyDialect]
+DEBUG [main] (AbstractEntityPersister.java:2952) - Static SQL for entity: com.ad.producer.domain.Creatives
+DEBUG [main] (AbstractEntityPersister.java:2957) -  Version select: select id from APP.Creatives where id =?
+DEBUG [main] (AbstractEntityPersister.java:2960) -  Snapshot select: select creatives_.id, creatives_.countries as countries0_, creatives_.description as descript3_0_, creatives_.excluded_countries as excluded4_0_, creatives_.excluded_os as excluded5_0_, creatives_.os as os0_, creatives_.url as url0_ from APP.Creatives creatives_ where creatives_.id=?
+DEBUG [main] (AbstractEntityPersister.java:2963) -  Insert 0: insert into APP.Creatives (countries, description, excluded_countries, excluded_os, os, url, id) values (?, ?, ?, ?, ?, ?, ?)
+DEBUG [main] (AbstractEntityPersister.java:2964) -  Update 0: update APP.Creatives set countries=?, description=?, excluded_countries=?, excluded_os=?, os=?, url=? where id=?
+DEBUG [main] (AbstractEntityPersister.java:2965) -  Delete 0: delete from APP.Creatives where id=?
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [NONE]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [READ]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [UPGRADE]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=? for update with rs
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [UPGRADE_NOWAIT]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=? for update with rs
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [FORCE]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=? for update with rs
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [PESSIMISTIC_READ]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=? for read only with rs
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [PESSIMISTIC_WRITE]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=? for update with rs
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [PESSIMISTIC_FORCE_INCREMENT]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=? for update with rs
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [OPTIMISTIC]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (EntityLoader.java:123) - Static select for entity com.ad.producer.domain.Creatives [OPTIMISTIC_FORCE_INCREMENT]: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (CascadeEntityLoader.java:56) - Static select for action ACTION_MERGE on entity com.ad.producer.domain.Creatives: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (CascadeEntityLoader.java:56) - Static select for action ACTION_REFRESH on entity com.ad.producer.domain.Creatives: select creatives0_.id as id0_0_, creatives0_.countries as countries0_0_, creatives0_.description as descript3_0_0_, creatives0_.excluded_countries as excluded4_0_0_, creatives0_.excluded_os as excluded5_0_0_, creatives0_.os as os0_0_, creatives0_.url as url0_0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (SessionFactoryObjectFactory.java:61) - initializing class SessionFactoryObjectFactory
+DEBUG [main] (SessionFactoryObjectFactory.java:99) - registered: ba1a1928-8ace-427b-b2e6-1a977ee936b6 (unnamed)
+ INFO [main] (SessionFactoryObjectFactory.java:105) - Not binding factory to JNDI, no JNDI name configured
+DEBUG [main] (SessionFactoryImpl.java:369) - instantiated session factory
+ INFO [main] (SchemaUpdate.java:155) - Running hbm2ddl schema update
+ INFO [main] (SchemaUpdate.java:167) - fetching database metadata
+DEBUG [main] (DriverManagerDataSource.java:162) - Creating new JDBC DriverManager Connection to [jdbc:derby://localhost:1527/sample]
+ INFO [main] (SchemaUpdate.java:179) - updating schema
+DEBUG [main] (Configuration.java:3968) - Processing hbm.xml files
+DEBUG [main] (Configuration.java:3998) - Process annotated classes
+DEBUG [main] (Configuration.java:1439) - processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG [main] (Configuration.java:1681) - processing extends queue
+DEBUG [main] (Configuration.java:1735) - processing extends queue
+DEBUG [main] (Configuration.java:1684) - processing collection mappings
+DEBUG [main] (Configuration.java:1694) - processing native query and ResultSetMapping mappings
+DEBUG [main] (Configuration.java:1702) - processing association property references
+DEBUG [main] (Configuration.java:1724) - processing foreign key constraints
+DEBUG [main] (DefaultTraversableResolver.java:106) - Found javax.persistence.Persistence on classpath containing &apos;getPersistenceUtil&apos;. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+DEBUG [main] (DefaultTraversableResolver.java:117) - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+DEBUG [main] (ValidationXmlParser.java:88) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+DEBUG [main] (ValidationXmlParser.java:95) - No META-INF/validation.xml found. Using annotation based configuration only.
+ INFO [main] (TableMetadata.java:65) - table found: .APP.CREATIVES
+ INFO [main] (TableMetadata.java:66) - columns: [excluded_os, id, os, excluded_countries, description, countries, url]
+ INFO [main] (TableMetadata.java:68) - foreign keys: []
+ INFO [main] (TableMetadata.java:69) - indexes: [sql160721214940170, creatives_excluded_os_idx, creatives_os_idx, creatives_excluded_countries_idx, creatives_countries_idx, creatives_idx]
+ INFO [main] (TableMetadata.java:65) - table found: .APP.CREATIVES
+ INFO [main] (TableMetadata.java:66) - columns: [excluded_os, id, os, excluded_countries, description, countries, url]
+ INFO [main] (TableMetadata.java:68) - foreign keys: []
+ INFO [main] (TableMetadata.java:69) - indexes: [sql160721214940170, creatives_excluded_os_idx, creatives_os_idx, creatives_excluded_countries_idx, creatives_countries_idx, creatives_idx]
+DEBUG [main] (DefaultIdentifierGeneratorFactory.java:90) - Setting dialect [org.hibernate.dialect.DerbyDialect]
+ INFO [main] (SchemaUpdate.java:217) - schema update complete
+DEBUG [main] (SessionFactoryImpl.java:539) - Checking 0 named HQL queries
+DEBUG [main] (SessionFactoryImpl.java:559) - Checking 0 named SQL queries
+ INFO [main] (AbstractApplicationContext.java:1374) - Bean &apos;sessionFactory&apos; of type [class org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;sessionFactory&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG [main] (AbstractApplicationContext.java:807) - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@565489a1]
+DEBUG [main] (AbstractApplicationContext.java:831) - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2f998b7d]
+ INFO [main] (DefaultListableBeanFactory.java:598) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@541cbc53: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,creativesDAOImpl,creativesService,creativesServiceForTest,advListController,configProperties,webServer,configuration,com.ad.producer.util.Utils#0,cacheManager,ehcache,dataSource,sessionFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,transactionManager,hibernateTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;creativesDAOImpl&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;creativesDAOImpl&apos;
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.dao.impl.CreativesDAOImpl]: AutowiredFieldElement for private org.springframework.orm.hibernate3.HibernateTemplate com.ad.producer.dao.impl.CreativesDAOImpl.hibernateTemplate
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;creativesDAOImpl&apos; to allow for resolving potential circular references
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;creativesDAOImpl&apos;: AutowiredFieldElement for private org.springframework.orm.hibernate3.HibernateTemplate com.ad.producer.dao.impl.CreativesDAOImpl.hibernateTemplate
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;hibernateTemplate&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;hibernateTemplate&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;hibernateTemplate&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;sessionFactory&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos; to allow for resolving potential circular references
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos; to allow for resolving potential circular references
+DEBUG [main] (BeanFactoryAdvisorRetrievalHelper.java:87) - Skipping currently created advisor &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:1555) - Invoking afterPropertiesSet() on bean with name &apos;hibernateTemplate&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;hibernateTemplate&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;creativesDAOImpl&apos; to bean named &apos;hibernateTemplate&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (JdkDynamicAopProxy.java:115) - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.ad.producer.dao.impl.CreativesDAOImpl@3078857e]
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;creativesDAOImpl&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;creativesService&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;creativesService&apos;
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.service.CreativesService]: AutowiredFieldElement for private com.ad.producer.dao.CreativesDAO com.ad.producer.service.CreativesService.creativesDAO
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.service.CreativesService]: AutowiredFieldElement for public com.ad.producer.configuration.Configuration com.ad.producer.service.CreativesService.conf
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.service.CreativesService]: AutowiredFieldElement for private org.springframework.cache.ehcache.EhCacheCacheManager com.ad.producer.service.CreativesService.cacheManager
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;creativesService&apos; to allow for resolving potential circular references
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;creativesService&apos;: AutowiredFieldElement for private com.ad.producer.dao.CreativesDAO com.ad.producer.service.CreativesService.creativesDAO
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;creativesDAOImpl&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;creativesService&apos; to bean named &apos;creativesDAOImpl&apos;
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;creativesService&apos;: AutowiredFieldElement for public com.ad.producer.configuration.Configuration com.ad.producer.service.CreativesService.conf
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;configuration&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;configuration&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;configuration&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;configuration&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;creativesService&apos; to bean named &apos;configuration&apos;
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;creativesService&apos;: AutowiredFieldElement for private org.springframework.cache.ehcache.EhCacheCacheManager com.ad.producer.service.CreativesService.cacheManager
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;cacheManager&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;cacheManager&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;cacheManager&apos; to allow for resolving potential circular references
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;ehcache&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;ehcache&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;ehcache&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:1555) - Invoking afterPropertiesSet() on bean with name &apos;ehcache&apos;
+ INFO [main] (EhCacheManagerFactoryBean.java:110) - Initializing EhCache CacheManager
+DEBUG [main] (ConfigurationFactory.java:150) - Configuring ehcache from InputStream
+DEBUG [main] (ConfigurationFactory.java:208) - Did not find a system property for the ${conf.cache1} token specified in the configuration.Replacing with &quot;&quot;
+DEBUG [main] (ConfigurationFactory.java:208) - Did not find a system property for the ${conf.cache2} token specified in the configuration.Replacing with &quot;&quot;
+DEBUG [main] (BeanHandler.java:271) - Ignoring ehcache attribute xmlns:xsi
+DEBUG [main] (BeanHandler.java:271) - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+DEBUG [main] (DiskStoreConfiguration.java:141) - Disk Store Path: ehcache/AdProducer
+DEBUG [main] (CacheManager.java:1096) - Creating new CacheManager with InputStream
+DEBUG [main] (PropertyUtil.java:87) - propertiesString is null.
+DEBUG [main] (ConfigurationHelper.java:185) - No CacheManagerEventListenerFactory class specified. Skipping...
+DEBUG [main] (Cache.java:1001) - No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG [main] (Cache.java:975) - CacheWriter factory not configured. Skipping...
+DEBUG [main] (ConfigurationHelper.java:96) - No CacheExceptionHandlerFactory class specified. Skipping...
+DEBUG [main] (Cache.java:1001) - No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG [main] (Cache.java:975) - CacheWriter factory not configured. Skipping...
+DEBUG [main] (ConfigurationHelper.java:96) - No CacheExceptionHandlerFactory class specified. Skipping...
+DEBUG [main] (Cache.java:1001) - No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG [main] (Cache.java:975) - CacheWriter factory not configured. Skipping...
+DEBUG [main] (ConfigurationHelper.java:96) - No CacheExceptionHandlerFactory class specified. Skipping...
+ WARN [main] (DiskStorePathManager.java:162) - diskStorePath &apos;ehcache\AdProducer&apos; is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+DEBUG [main] (DiskStorePathManager.java:169) - Using diskstore path ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore
+DEBUG [main] (DiskStorePathManager.java:170) - Holding exclusive lock on G:\Java_Project\AdProducer\ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore\.ehcache-diskstore.lock
+ WARN [main] (DiskStorageFactory.java:130) - Data in persistent disk stores is ignored for stores from automatically created directories.
+Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+Deleting data file G:\Java_Project\AdProducer\ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore\${conf%002ecache1}.data
+DEBUG [main] (DiskStorageFactory.java:834) - Failed to delete file ${conf%002ecache1}.data
+DEBUG [main] (DiskStorageFactory.java:166) - Matching data file missing (or empty) for index file. Deleting index file ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore\${conf%002ecache1}.index
+DEBUG [main] (DiskStorageFactory.java:834) - Failed to delete file ${conf%002ecache1}.index
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: REMOTE_SIZE
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: OFFHEAP_GET
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: OFFHEAP_PUT
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: OFFHEAP_REMOVE
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: XA_COMMIT
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: XA_ROLLBACK
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: XA_RECOVERY
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: CLUSTER_EVENT
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: NONSTOP
+DEBUG [main] (Cache.java:1199) - Initialised cache: ${conf.cache1}
+DEBUG [main] (ConfigurationHelper.java:325) - CacheDecoratorFactory not configured. Skipping for &apos;${conf.cache1}&apos;.
+DEBUG [main] (ConfigurationHelper.java:354) - CacheDecoratorFactory not configured for defaultCache. Skipping for &apos;${conf.cache1}&apos;.
+ WARN [main] (DiskStorageFactory.java:130) - Data in persistent disk stores is ignored for stores from automatically created directories.
+Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+Deleting data file G:\Java_Project\AdProducer\ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore\${conf%002ecache2}.data
+DEBUG [main] (DiskStorageFactory.java:834) - Failed to delete file ${conf%002ecache2}.data
+DEBUG [main] (DiskStorageFactory.java:166) - Matching data file missing (or empty) for index file. Deleting index file ehcache\AdProducer\ehcache_auto_created8190994474983610900diskstore\${conf%002ecache2}.index
+DEBUG [main] (DiskStorageFactory.java:834) - Failed to delete file ${conf%002ecache2}.index
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: REMOTE_SIZE
+DEBUG [main] (ExtendedStatisticsImpl.java:225) - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: OFFHEAP_GET
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: OFFHEAP_PUT
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: OFFHEAP_REMOVE
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: XA_COMMIT
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: XA_ROLLBACK
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: XA_RECOVERY
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: CLUSTER_EVENT
+DEBUG [main] (ExtendedStatisticsImpl.java:207) - Mocking Operation Statistic: NONSTOP
+DEBUG [main] (Cache.java:1199) - Initialised cache: ${conf.cache2}
+DEBUG [main] (ConfigurationHelper.java:325) - CacheDecoratorFactory not configured. Skipping for &apos;${conf.cache2}&apos;.
+DEBUG [main] (ConfigurationHelper.java:354) - CacheDecoratorFactory not configured for defaultCache. Skipping for &apos;${conf.cache2}&apos;.
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;ehcache&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:1555) - Invoking afterPropertiesSet() on bean with name &apos;cacheManager&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;cacheManager&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;creativesService&apos; to bean named &apos;cacheManager&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.add&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (AbstractAutoProxyCreator.java:538) - Creating implicit proxy for bean &apos;creativesService&apos; with 0 common interceptors and 1 specific interceptors
+DEBUG [main] (CglibAopProxy.java:155) - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.ad.producer.service.CreativesService@b81dd]
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:1555) - Invoking afterPropertiesSet() on bean with name &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public void com.ad.producer.service.CreativesService.add(com.ad.producer.domain.Creatives)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.delete&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public void com.ad.producer.service.CreativesService.delete(com.ad.producer.domain.Creatives)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.update&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public void com.ad.producer.service.CreativesService.update(com.ad.producer.domain.Creatives)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.getCreativesById&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public com.ad.producer.domain.Creatives com.ad.producer.service.CreativesService.getCreativesById(java.lang.Long)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.getCreativesByParams&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesService.getCreativesByParams(com.ad.producer.domain.RequestObj)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.getCreativesByOs&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesService.getCreativesByOs(java.lang.String)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.getCreativesByCountry&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesService.getCreativesByCountry(java.lang.String)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesService.getCreativesByUrl&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesService.getCreativesByUrl(java.lang.String)
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesService.getCreativesByParamsCachable(com.ad.producer.domain.RequestObj)
+DEBUG [main] (CglibAopProxy.java:762) - Found finalize() method - using NO_OVERRIDE
+DEBUG [main] (CglibAopProxy.java:774) - Found &apos;equals&apos; method: public boolean java.lang.Object.equals(java.lang.Object)
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+DEBUG [main] (CglibAopProxy.java:779) - Found &apos;hashCode&apos; method: public native int java.lang.Object.hashCode()
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;creativesService&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;creativesServiceForTest&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;creativesServiceForTest&apos;
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.service.CreativesServiceForTest]: AutowiredFieldElement for private com.ad.producer.dao.CreativesDAO com.ad.producer.service.CreativesServiceForTest.creativesDAO
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;creativesServiceForTest&apos; to allow for resolving potential circular references
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;creativesServiceForTest&apos;: AutowiredFieldElement for private com.ad.producer.dao.CreativesDAO com.ad.producer.service.CreativesServiceForTest.creativesDAO
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;creativesDAOImpl&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;creativesServiceForTest&apos; to bean named &apos;creativesDAOImpl&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.add&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (AbstractAutoProxyCreator.java:538) - Creating implicit proxy for bean &apos;creativesServiceForTest&apos; with 0 common interceptors and 1 specific interceptors
+DEBUG [main] (CglibAopProxy.java:155) - Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.ad.producer.service.CreativesServiceForTest@5a588fd6]
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public void com.ad.producer.service.CreativesServiceForTest.add(com.ad.producer.domain.Creatives)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.delete&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public void com.ad.producer.service.CreativesServiceForTest.delete(com.ad.producer.domain.Creatives)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.update&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public void com.ad.producer.service.CreativesServiceForTest.update(com.ad.producer.domain.Creatives)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.getCreativesById&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public com.ad.producer.domain.Creatives com.ad.producer.service.CreativesServiceForTest.getCreativesById(java.lang.Long)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.getCreativesByParams&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesServiceForTest.getCreativesByParams(com.ad.producer.domain.RequestObj)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.getCreativesByOs&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesServiceForTest.getCreativesByOs(java.lang.String)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.getCreativesByCountry&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesServiceForTest.getCreativesByCountry(java.lang.String)
+DEBUG [main] (AbstractFallbackTransactionAttributeSource.java:107) - Adding transactional method &apos;CreativesServiceForTest.getCreativesByUrl&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.util.List com.ad.producer.service.CreativesServiceForTest.getCreativesByUrl(java.lang.String)
+DEBUG [main] (CglibAopProxy.java:762) - Found finalize() method - using NO_OVERRIDE
+DEBUG [main] (CglibAopProxy.java:774) - Found &apos;equals&apos; method: public boolean java.lang.Object.equals(java.lang.Object)
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()
+DEBUG [main] (CglibAopProxy.java:779) - Found &apos;hashCode&apos; method: public native int java.lang.Object.hashCode()
+DEBUG [main] (CglibAopProxy.java:811) - Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+DEBUG [main] (CglibAopProxy.java:768) - Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;creativesServiceForTest&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;advListController&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;advListController&apos;
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.controller.AdvListController]: AutowiredFieldElement for private com.ad.producer.service.CreativesService com.ad.producer.controller.AdvListController.service
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;advListController&apos; to allow for resolving potential circular references
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;advListController&apos;: AutowiredFieldElement for private com.ad.producer.service.CreativesService com.ad.producer.controller.AdvListController.service
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;creativesService&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;advListController&apos; to bean named &apos;creativesService&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;advListController&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;configProperties&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;webServer&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;webServer&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;configuration&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;webServer&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;webServer&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;configuration&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;com.ad.producer.util.Utils#0&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;com.ad.producer.util.Utils#0&apos;
+DEBUG [main] (InjectionMetadata.java:71) - Registered injected element on class [com.ad.producer.util.Utils]: AutowiredFieldElement for private com.ad.producer.service.CreativesService com.ad.producer.util.Utils.creativesSer
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;com.ad.producer.util.Utils#0&apos; to allow for resolving potential circular references
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;com.ad.producer.util.Utils#0&apos;: AutowiredFieldElement for private com.ad.producer.service.CreativesService com.ad.producer.util.Utils.creativesSer
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;creativesService&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;com.ad.producer.util.Utils#0&apos; to bean named &apos;creativesService&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;com.ad.producer.util.Utils#0&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;cacheManager&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;ehcache&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;dataSource&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;sessionFactory&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (DefaultSingletonBeanRegistry.java:215) - Creating shared instance of singleton bean &apos;transactionManager&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:432) - Creating instance of bean &apos;transactionManager&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:506) - Eagerly caching bean &apos;transactionManager&apos; to allow for resolving potential circular references
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;sessionFactory&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:1555) - Invoking afterPropertiesSet() on bean with name &apos;transactionManager&apos;
+ INFO [main] (HibernateTransactionManager.java:416) - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@75d2ea88] of Hibernate SessionFactory for HibernateTransactionManager
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractAutowireCapableBeanFactory.java:460) - Finished creating instance of bean &apos;transactionManager&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;hibernateTemplate&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;
+DEBUG [main] (AbstractApplicationContext.java:858) - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@1d6899df]
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
+DEBUG [main] (PropertySourcesPropertyResolver.java:81) - Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemProperties]
+DEBUG [main] (PropertySourcesPropertyResolver.java:81) - Searching for key &apos;spring.liveBeansView.mbeanDomain&apos; in [systemEnvironment]
+DEBUG [main] (PropertySourcesPropertyResolver.java:103) - Could not find key &apos;spring.liveBeansView.mbeanDomain&apos; in any property source. Returning [null]
+DEBUG [main] (CacheAwareContextLoaderDelegate.java:93) - Storing ApplicationContext in cache under key [[MergedContextConfiguration@6f72be2a testClass = CreativesServiceTest, locations = &apos;{classpath:applicationContextTest.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].
+DEBUG [main] (InjectionMetadata.java:85) - Processing injected method of bean &apos;com.ad.producer.service.test.CreativesServiceTest&apos;: AutowiredFieldElement for private com.ad.producer.service.CreativesServiceForTest com.ad.producer.service.test.CreativesServiceTest.creativesSer
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;creativesServiceForTest&apos;
+DEBUG [main] (AutowiredAnnotationBeanPostProcessor.java:436) - Autowiring by type from bean name &apos;com.ad.producer.service.test.CreativesServiceTest&apos; to bean named &apos;creativesServiceForTest&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;transactionManager&apos;
+DEBUG [main] (AbstractPlatformTransactionManager.java:366) - Creating new transaction with name [com.ad.producer.service.CreativesServiceForTest.add]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG [main] (SessionImpl.java:265) - opened session at timestamp: 14695990519
+DEBUG [main] (HibernateTransactionManager.java:494) - Opened new Session [org.hibernate.impl.SessionImpl@74459a33] for Hibernate transaction
+DEBUG [main] (HibernateTransactionManager.java:505) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@74459a33]
+DEBUG [main] (JDBCTransaction.java:78) - begin
+DEBUG [main] (ConnectionManager.java:444) - opening JDBC connection
+DEBUG [main] (DriverManagerDataSource.java:162) - Creating new JDBC DriverManager Connection to [jdbc:derby://localhost:1527/sample]
+DEBUG [main] (JDBCTransaction.java:83) - current autocommit status: true
+DEBUG [main] (JDBCTransaction.java:86) - disabling autocommit
+DEBUG [main] (HibernateTransactionManager.java:570) - Exposing Hibernate transaction as JDBC transaction [org.apache.derby.client.net.NetConnection40@4a584f43]
+DEBUG [main] (HibernateTemplate.java:398) - Found thread-bound Session for HibernateTemplate
+DEBUG [main] (IncrementGenerator.java:123) - fetching initial value: select max(id) from APP.Creatives
+DEBUG [main] (AbstractBatcher.java:410) - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+DEBUG [main] (SQLStatementLogger.java:111) - 
+    select
+        max(id) 
+    from
+        APP.Creatives
+Hibernate: 
+    select
+        max(id) 
+    from
+        APP.Creatives
+DEBUG [main] (IncrementGenerator.java:136) - first free id: 2006
+DEBUG [main] (AbstractBatcher.java:418) - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+DEBUG [main] (AbstractSaveEventListener.java:134) - generated identifier: 2006, using strategy: org.hibernate.id.IncrementGenerator
+DEBUG [main] (HibernateTemplate.java:423) - Not closing pre-bound Hibernate Session after HibernateTemplate
+DEBUG [main] (HibernateTemplate.java:398) - Found thread-bound Session for HibernateTemplate
+DEBUG [main] (AbstractFlushingEventListener.java:134) - processing flush-time cascades
+DEBUG [main] (AbstractFlushingEventListener.java:177) - dirty checking collections
+DEBUG [main] (AbstractFlushingEventListener.java:108) - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+DEBUG [main] (AbstractFlushingEventListener.java:114) - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+DEBUG [main] (Printer.java:106) - listing entities:
+DEBUG [main] (Printer.java:113) - com.ad.producer.domain.Creatives{excluded_os=windows,blackberry, id=2006, os=android,ios, excluded_countries=UA,BG, description=funny ads, countries=UK,US, url=http://google.com}
+DEBUG [main] (AbstractBatcher.java:410) - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+DEBUG [main] (SQLStatementLogger.java:111) - 
+    insert 
+    into
+        APP.Creatives
+        (countries, description, excluded_countries, excluded_os, os, url, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        APP.Creatives
+        (countries, description, excluded_countries, excluded_os, os, url, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+DEBUG [main] (AbstractBatcher.java:418) - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+DEBUG [main] (HibernateTemplate.java:423) - Not closing pre-bound Hibernate Session after HibernateTemplate
+DEBUG [main] (AbstractPlatformTransactionManager.java:753) - Initiating transaction commit
+DEBUG [main] (HibernateTransactionManager.java:653) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@74459a33]
+DEBUG [main] (JDBCTransaction.java:130) - commit
+DEBUG [main] (AbstractFlushingEventListener.java:134) - processing flush-time cascades
+DEBUG [main] (AbstractFlushingEventListener.java:177) - dirty checking collections
+DEBUG [main] (AbstractFlushingEventListener.java:108) - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+DEBUG [main] (AbstractFlushingEventListener.java:114) - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+DEBUG [main] (Printer.java:106) - listing entities:
+DEBUG [main] (Printer.java:113) - com.ad.producer.domain.Creatives{excluded_os=windows,blackberry, id=2006, os=android,ios, excluded_countries=UA,BG, description=funny ads, countries=UK,US, url=http://google.com}
+DEBUG [main] (JDBCTransaction.java:223) - re-enabling autocommit
+DEBUG [main] (JDBCTransaction.java:143) - committed JDBC Connection
+DEBUG [main] (ConnectionManager.java:325) - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+DEBUG [main] (HibernateTransactionManager.java:735) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@74459a33] after transaction
+DEBUG [main] (SessionFactoryUtils.java:802) - Closing Hibernate Session
+DEBUG [main] (ConnectionManager.java:464) - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+DEBUG [main] (ConnectionManager.java:325) - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+DEBUG [main] (AbstractBeanFactory.java:246) - Returning cached instance of singleton bean &apos;transactionManager&apos;
+DEBUG [main] (AbstractPlatformTransactionManager.java:366) - Creating new transaction with name [com.ad.producer.service.CreativesServiceForTest.getCreativesById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; &apos;&apos;
+DEBUG [main] (SessionImpl.java:265) - opened session at timestamp: 14695990522
+DEBUG [main] (HibernateTransactionManager.java:494) - Opened new Session [org.hibernate.impl.SessionImpl@44aa7ac7] for Hibernate transaction
+DEBUG [main] (HibernateTransactionManager.java:505) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@44aa7ac7]
+DEBUG [main] (ConnectionManager.java:444) - opening JDBC connection
+DEBUG [main] (DriverManagerDataSource.java:162) - Creating new JDBC DriverManager Connection to [jdbc:derby://localhost:1527/sample]
+DEBUG [main] (DataSourceUtils.java:153) - Setting JDBC Connection [org.apache.derby.client.net.NetConnection40@3d02d6fc] read-only
+DEBUG [main] (JDBCTransaction.java:78) - begin
+DEBUG [main] (JDBCTransaction.java:83) - current autocommit status: true
+DEBUG [main] (JDBCTransaction.java:86) - disabling autocommit
+DEBUG [main] (HibernateTransactionManager.java:570) - Exposing Hibernate transaction as JDBC transaction [org.apache.derby.client.net.NetConnection40@3d02d6fc]
+DEBUG [main] (HibernateTemplate.java:398) - Found thread-bound Session for HibernateTemplate
+DEBUG [main] (QueryTranslatorImpl.java:272) - parse() - HQL:  from com.ad.producer.domain.Creatives where id = :id
+DEBUG [main] (QueryTranslatorImpl.java:291) - --- HQL AST ---
+ \-[QUERY] Node: &apos;query&apos;
+    +-[SELECT_FROM] Node: &apos;SELECT_FROM&apos;
+    |  \-[FROM] Node: &apos;from&apos;
+    |     \-[RANGE] Node: &apos;RANGE&apos;
+    |        \-[DOT] Node: &apos;.&apos;
+    |           +-[DOT] Node: &apos;.&apos;
+    |           |  +-[DOT] Node: &apos;.&apos;
+    |           |  |  +-[DOT] Node: &apos;.&apos;
+    |           |  |  |  +-[IDENT] Node: &apos;com&apos;
+    |           |  |  |  \-[IDENT] Node: &apos;ad&apos;
+    |           |  |  \-[IDENT] Node: &apos;producer&apos;
+    |           |  \-[IDENT] Node: &apos;domain&apos;
+    |           \-[IDENT] Node: &apos;Creatives&apos;
+    \-[WHERE] Node: &apos;where&apos;
+       \-[EQ] Node: &apos;=&apos;
+          +-[IDENT] Node: &apos;id&apos;
+          \-[COLON] Node: &apos;:&apos;
+             \-[IDENT] Node: &apos;id&apos;
+
+DEBUG [main] (ErrorCounter.java:91) - throwQueryException() : no errors
+DEBUG [main] (HqlSqlBaseWalker.java:111) - select &lt;&lt; begin [level=1, statement=select]
+DEBUG [main] (FromElement.java:157) - FromClause{level=1} :  com.ad.producer.domain.Creatives (no alias) -&gt; creatives0_
+DEBUG [main] (FromReferenceNode.java:74) - Resolved :  {synthetic-alias} -&gt; {synthetic-alias}
+DEBUG [main] (DotNode.java:613) - getDataType() : id -&gt; org.hibernate.type.LongType@685606dc
+DEBUG [main] (FromReferenceNode.java:74) - Resolved :  {synthetic-alias}.id -&gt; creatives0_.id
+DEBUG [main] (HqlSqlBaseWalker.java:117) - select : finishing up [level=1, statement=select]
+DEBUG [main] (HqlSqlWalker.java:625) - processQuery() :  ( SELECT ( FromClause{level=1} APP.Creatives creatives0_ ) ( where ( = ( creatives0_.id {synthetic-alias} id ) ? ) ) )
+DEBUG [main] (HqlSqlWalker.java:868) - Derived SELECT clause created.
+DEBUG [main] (JoinProcessor.java:179) - Using FROM fragment [APP.Creatives creatives0_]
+DEBUG [main] (HqlSqlBaseWalker.java:123) - select &gt;&gt; end [level=1, statement=select]
+DEBUG [main] (QueryTranslatorImpl.java:258) - --- SQL AST ---
+ \-[SELECT] QueryNode: &apos;SELECT&apos;  querySpaces (APP.Creatives)
+    +-[SELECT_CLAUSE] SelectClause: &apos;{derived select clause}&apos;
+    |  +-[SELECT_EXPR] SelectExpressionImpl: &apos;creatives0_.id as id0_&apos; {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=APP.Creatives,tableAlias=creatives0_,origin=null,columns={,className=com.ad.producer.domain.Creatives}}}
+    |  \-[SQL_TOKEN] SqlFragment: &apos;creatives0_.countries as countries0_, creatives0_.description as descript3_0_, creatives0_.excluded_countries as excluded4_0_, creatives0_.excluded_os as excluded5_0_, creatives0_.os as os0_, creatives0_.url as url0_&apos;
+    +-[FROM] FromClause: &apos;from&apos; FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[creatives0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: &apos;APP.Creatives creatives0_&apos; FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=APP.Creatives,tableAlias=creatives0_,origin=null,columns={,className=com.ad.producer.domain.Creatives}}
+    \-[WHERE] SqlNode: &apos;where&apos;
+       \-[EQ] BinaryLogicOperatorNode: &apos;=&apos;
+          +-[DOT] DotNode: &apos;creatives0_.id&apos; {propertyName=id,dereferenceType=ALL,propertyPath=id,path={synthetic-alias}.id,tableAlias=creatives0_,className=com.ad.producer.domain.Creatives,classAlias=null}
+          |  +-[IDENT] IdentNode: &apos;{synthetic-alias}&apos; {originalText={synthetic-alias}}
+          |  \-[IDENT] IdentNode: &apos;id&apos; {originalText=id}
+          \-[NAMED_PARAM] ParameterNode: &apos;?&apos; {name=id, expectedType=org.hibernate.type.LongType@685606dc}
+
+DEBUG [main] (ErrorCounter.java:91) - throwQueryException() : no errors
+DEBUG [main] (QueryTranslatorImpl.java:241) - HQL:  from com.ad.producer.domain.Creatives where id = :id
+DEBUG [main] (QueryTranslatorImpl.java:242) - SQL: select creatives0_.id as id0_, creatives0_.countries as countries0_, creatives0_.description as descript3_0_, creatives0_.excluded_countries as excluded4_0_, creatives0_.excluded_os as excluded5_0_, creatives0_.os as os0_, creatives0_.url as url0_ from APP.Creatives creatives0_ where creatives0_.id=?
+DEBUG [main] (ErrorCounter.java:91) - throwQueryException() : no errors
+DEBUG [main] (AbstractBatcher.java:410) - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+DEBUG [main] (SQLStatementLogger.java:111) - 
+    select
+        creatives0_.id as id0_,
+        creatives0_.countries as countries0_,
+        creatives0_.description as descript3_0_,
+        creatives0_.excluded_countries as excluded4_0_,
+        creatives0_.excluded_os as excluded5_0_,
+        creatives0_.os as os0_,
+        creatives0_.url as url0_ 
+    from
+        APP.Creatives creatives0_ 
+    where
+        creatives0_.id=?
+Hibernate: 
+    select
+        creatives0_.id as id0_,
+        creatives0_.countries as countries0_,
+        creatives0_.description as descript3_0_,
+        creatives0_.excluded_countries as excluded4_0_,
+        creatives0_.excluded_os as excluded5_0_,
+        creatives0_.os as os0_,
+        creatives0_.url as url0_ 
+    from
+        APP.Creatives creatives0_ 
+    where
+        creatives0_.id=?
+DEBUG [main] (AbstractBatcher.java:426) - about to open ResultSet (open ResultSets: 0, globally: 0)
+DEBUG [main] (Loader.java:1322) - result row: EntityKey[com.ad.producer.domain.Creatives#1]
+DEBUG [main] (AbstractBatcher.java:433) - about to close ResultSet (open ResultSets: 1, globally: 1)
+DEBUG [main] (AbstractBatcher.java:418) - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+DEBUG [main] (TwoPhaseLoad.java:130) - resolving associations for [com.ad.producer.domain.Creatives#1]
+DEBUG [main] (TwoPhaseLoad.java:255) - done materializing entity [com.ad.producer.domain.Creatives#1]
+DEBUG [main] (StatefulPersistenceContext.java:893) - initializing non-lazy collections
+DEBUG [main] (HibernateTemplate.java:423) - Not closing pre-bound Hibernate Session after HibernateTemplate
+DEBUG [main] (AbstractPlatformTransactionManager.java:753) - Initiating transaction commit
+DEBUG [main] (HibernateTransactionManager.java:653) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@44aa7ac7]
+DEBUG [main] (JDBCTransaction.java:130) - commit
+DEBUG [main] (JDBCTransaction.java:223) - re-enabling autocommit
+DEBUG [main] (JDBCTransaction.java:143) - committed JDBC Connection
+DEBUG [main] (ConnectionManager.java:325) - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+DEBUG [main] (HibernateTransactionManager.java:735) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@44aa7ac7] after transaction
+DEBUG [main] (SessionFactoryUtils.java:802) - Closing Hibernate Session
+DEBUG [main] (ConnectionManager.java:464) - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+DEBUG [main] (ConnectionManager.java:325) - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+DEBUG [main] (DirtiesContextTestExecutionListener.java:107) - After test method: context [[TestContext@267d5b1a testClass = CreativesServiceTest, testInstance = com.ad.producer.service.test.CreativesServiceTest@6fe81bb3, testMethod = creativesServiceTest@CreativesServiceTest, testException = java.lang.AssertionError: Inserted new row and get object must same. expected:&lt;Creatives{id=2006, description=funny ads, url=http://google.com, os=android,ios, country=UK,US, excluded_os=windows,blackberry, excluded_countries=UA,BG}&gt; but was:&lt;Creatives{id=1, description=a cvjyvyjxkhyvwmnpomb, url=http://kfdouqaprgukgtj, os=ios,symbian,symbian,windows,ios, country=SP,GE,UK,PL,GE,SP,PL, excluded_os=mac, excluded_countries=SE}&gt;, mergedContextConfiguration = [MergedContextConfiguration@6f72be2a testClass = CreativesServiceTest, locations = &apos;{classpath:applicationContextTest.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]], class dirties context [false], class mode [null], method dirties context [false].
+</system-out>
+  </testcase>
+  <testcase time="6.193" classname="com.ad.producer.service.test.CreativesServiceTest" name="getCreativesByParamsTest">
+    <skipped/>
+  </testcase>
+</testsuite>
